@@ -1,0 +1,451 @@
+.main-form-container-design {
+  width: 80vw;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background-color: rgba(32, 32, 32, 0.623);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 15px #2c2c2c;
+          box-shadow: 0 0 15px #2c2c2c;
+}
+
+.formCover-and-inputs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-page-container {
+  border-top-left-radius: 3px;
+  border-end-start-radius: 3px;
+  width: 50%;
+  background-size: cover;
+  min-height: 770px;
+}
+
+.left-page-container .left-page-p-container {
+  font-size: 30px;
+  color: #fdfdfd;
+}
+
+.left-page-container .left-page-p-container p {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.right-page-container {
+  background-color: #252c38;
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 750px;
+}
+
+.right-page-container .input-header-container {
+  min-height: 160px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-page-container .input-header-container img {
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+.right-page-container .input-header-container p {
+  color: white;
+  font-size: 1.5em;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: -6px;
+  border-bottom: solid #ffc338 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 45vw;
+  font-weight: bold;
+}
+
+.right-page-container .input-header-container .responsive-btb-logo {
+  visibility: none;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.btn-design {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+  border: solid white 1px;
+  background-image: url("https://i.ibb.co/b39M5JM/left-Arrow-Png-White.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position-x: 16px;
+  background-position-y: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-color: transparent;
+}
+
+.btn-design:hover {
+  -webkit-transform: translate3d(-3px, 0, 0);
+          transform: translate3d(-3px, 0, 0);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  background-color: #ffc338;
+}
+
+.back-btn {
+  height: 60px;
+  width: 60px;
+  background-size: 38px;
+  background-position-x: 11px;
+  background-position-y: 11px;
+  background-image: url("https://i.ibb.co/vL4G3dC/right-Arrow-Png-White.png");
+}
+
+.back-btn:hover {
+  -webkit-transform: translate3d(3px, 0, 0);
+          transform: translate3d(3px, 0, 0);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  background-color: #ff3b4577;
+  border: solid #ff3b4577 1px;
+}
+
+.RegisterScreen-maindiv {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  background-image: url("../IMG/UnblurdBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-form-container-design {
+  margin: auto;
+}
+
+.right-page-container {
+  background-color: #252c38;
+  width: 55%;
+  min-height: 770px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 750px;
+}
+
+.right-page-container .input-header-container {
+  margin: 3px;
+  min-height: 160px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-page-container .input-header-container img {
+  height: 80px;
+  width: 80px;
+  margin-top: 34px;
+  margin-bottom: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+.right-page-container .input-header-container p {
+  color: white;
+  font-size: 1.9rem;
+  margin-top: 10px;
+  border-bottom: solid #ffc338 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.RegisterScreen-left-container {
+  background-image: url(".././IMG/bluredBackground.jpg");
+}
+
+.inputs-container-register-login {
+  border-radius: 10px;
+  margin: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+}
+
+.inputs-container-register-login .RGC-btn-design {
+  color: rgba(255, 255, 255, 0.829);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  width: 83%;
+  margin: 12px;
+  border-radius: 5px;
+  background-color: #ffc338d0;
+  cursor: pointer;
+  font-family: "Exo", sans-serif;
+}
+
+.inputs-container-register-login .RGC-btn-design:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #ffc338;
+  color: white;
+}
+
+.inputs-container-register-login #inputs-midline {
+  border: solid #ffc33815 1px;
+  height: 90%;
+  margin: auto;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+
+.inputs-container-register-login .inputs-headers {
+  color: white;
+  margin: 8px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.inputs-container-register-login .inputs-design-class {
+  margin: 12px;
+  padding: 18px;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 1.35rem;
+  text-align: start;
+  border: solid white 1px;
+  background: none;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Exo", sans-serif;
+}
+
+.inputs-container-register-login .inputs-design-class::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container-register-login .inputs-design-class:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container-register-login .inputs-design-class::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container-register-login .inputs-design-class::placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container-register-login .inputs-design-class:hover::-webkit-input-placeholder {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container-register-login .inputs-design-class:hover:-ms-input-placeholder {
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container-register-login .inputs-design-class:hover::-ms-input-placeholder {
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container-register-login .inputs-design-class:hover::placeholder {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container-register-login .login-inputs .google-login-btn {
+  margin: 12px;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.inputs-container-register-login .login-inputs .login-rest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.inputs-container-register-login .register-inputs {
+  margin-bottom: 45px;
+}
+
+#forgot-pw {
+  color: #ffc33844;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#forgot-pw:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  color: #ffc338a4;
+}
+
+@media (max-width: 1350px) {
+  .RegisterScreen-maindiv {
+    padding-bottom: 150px;
+  }
+  .main-form-container-design {
+    margin-top: 50px;
+  }
+  .left-page-container {
+    display: none;
+  }
+  .right-page-container {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .right-page-container .input-header-container {
+    margin-bottom: -25px;
+  }
+  .right-page-container .input-header-container p {
+    font-size: 1.5rem;
+  }
+  .right-page-container .inputs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    margin: 30px;
+  }
+  .right-page-container .inputs-container .inputs-row2,
+  .right-page-container .inputs-container inputs-row2 {
+    margin: 0;
+  }
+}
+
+@media (max-height: 850px) {
+  .RegisterScreen-maindiv {
+    padding-bottom: 450px;
+    padding-top: 150px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-height: 750px) {
+  .RegisterScreen-maindiv {
+    padding-bottom: 650px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-height: 650px) {
+  .RegisterScreen-maindiv {
+    padding-bottom: 750px;
+    padding-top: 270px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .inputs-container-register-login {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  #inputs-midline {
+    display: none;
+  }
+  .login-inputs {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=RGC.css.map */

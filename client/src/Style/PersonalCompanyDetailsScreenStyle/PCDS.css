@@ -1,0 +1,155 @@
+.PersonalCompanyDetailsScreen-maindiv {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  background-image: url("../IMG/UnblurdBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PersonalCompanyDetailsScreen-left-container {
+  background-image: url(".././IMG/bluredBackground.jpg");
+}
+
+.inputs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+}
+
+.inputs-container .inputs-design-class {
+  margin: 16px;
+  padding: 18px;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 1.35rem;
+  text-align: estart;
+  border: solid white 1px;
+  background: none;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Exo", sans-serif;
+}
+
+.inputs-container .inputs-design-class::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container .inputs-design-class:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container .inputs-design-class::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container .inputs-design-class::placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.inputs-container .inputs-design-class:hover::-webkit-input-placeholder {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container .inputs-design-class:hover:-ms-input-placeholder {
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container .inputs-design-class:hover::-ms-input-placeholder {
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container .inputs-design-class:hover::placeholder {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.inputs-container .date-input-design {
+  color: rgba(255, 255, 255, 0.726);
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.inputs-container .date-input-design:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+
+.inputs-container .date-input-design::-webkit-calendar-picker-indicator {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+}
+
+.inputs-container .inputs-row2 {
+  margin-left: -30px;
+}
+
+.back-btn-pg1 {
+  opacity: 0;
+  -webkit-transition-duration: 11.5s;
+          transition-duration: 11.5s;
+  opacity: 1;
+}
+
+@media (max-height: 850px) {
+  .PersonalCompanyDetailsScreen-maindiv {
+    padding-top: 200px;
+    padding-bottom: 550px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-height: 750px) {
+  .PersonalCompanyDetailsScreen-maindiv {
+    padding-bottom: 750px;
+    padding-top: 250px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-height: 650px) {
+  .PersonalCompanyDetailsScreen-maindiv {
+    padding-top: 270px;
+    padding-bottom: 850px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-width: 300px) {
+  .main-form-container-design {
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=PCDS.css.map */

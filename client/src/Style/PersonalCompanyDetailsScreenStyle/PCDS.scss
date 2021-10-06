@@ -1,0 +1,108 @@
+.PersonalCompanyDetailsScreen-maindiv {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  background-image: url("../IMG/UnblurdBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PersonalCompanyDetailsScreen-left-container {
+  background-image: url(".././IMG/bluredBackground.jpg");
+}
+
+.inputs-container {
+  display: flex;
+  margin-top: 22px;
+
+  .inputs-design-class {
+    margin: 16px;
+    padding: 18px;
+    border-radius: 5px;
+    width: 75%;
+    font-size: 1.35rem;
+    text-align: estart;
+    border: solid white 1px;
+    background: none;
+    color: white;
+    flex-wrap: wrap;
+    font-family: "Exo", sans-serif;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.726);
+      font-size: 1.2rem;
+    }
+
+    &:hover::placeholder {
+      transition-duration: 0.3s;
+      color: white;
+      font-size: 1.25rem;
+    }
+  }
+
+  .date-input-design {
+    color: rgba(255, 255, 255, 0.726);
+    text-align: start;
+    font-size: 1.1rem;
+    &:hover {
+      transition-duration: 0.3s;
+      cursor: pointer;
+      color: white;
+    }
+
+    &::-webkit-calendar-picker-indicator {
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+    }
+  }
+
+  .inputs-row2 {
+    margin-left: -30px;
+  }
+}
+
+.back-btn-pg1 {
+  opacity: 0;
+  transition-duration: 11.5s;
+  opacity: 1;
+}
+
+@media (max-height: 850px) {
+  .PersonalCompanyDetailsScreen-maindiv {
+    padding-top: 200px;
+    padding-bottom: 550px;
+  }
+
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+@media (max-height: 750px) {
+  .PersonalCompanyDetailsScreen-maindiv {
+    padding-bottom: 750px;
+    padding-top: 250px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+@media (max-height: 650px) {
+  .PersonalCompanyDetailsScreen-maindiv {
+    padding-top: 270px;
+    padding-bottom: 850px;
+  }
+
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+@media (max-width: 300px) {
+
+
+  .main-form-container-design {
+    overflow: hidden;
+  }
+}

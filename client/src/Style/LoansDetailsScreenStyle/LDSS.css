@@ -1,0 +1,380 @@
+.main-form-container-design {
+  width: 80vw;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background-color: rgba(32, 32, 32, 0.623);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 15px #2c2c2c;
+          box-shadow: 0 0 15px #2c2c2c;
+}
+
+.formCover-and-inputs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-page-container {
+  border-top-left-radius: 3px;
+  border-end-start-radius: 3px;
+  width: 50%;
+  background-size: cover;
+  min-height: 770px;
+}
+
+.left-page-container .left-page-p-container {
+  font-size: 30px;
+  color: #fdfdfd;
+}
+
+.left-page-container .left-page-p-container p {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.right-page-container {
+  background-color: #252c38;
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 750px;
+}
+
+.right-page-container .input-header-container {
+  min-height: 160px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-page-container .input-header-container img {
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+.right-page-container .input-header-container p {
+  color: white;
+  font-size: 1.5em;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: -6px;
+  border-bottom: solid #ffc338 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 45vw;
+  font-weight: bold;
+}
+
+.right-page-container .input-header-container .responsive-btb-logo {
+  visibility: none;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.btn-design {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+  border: solid white 1px;
+  background-image: url("https://i.ibb.co/b39M5JM/left-Arrow-Png-White.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position-x: 16px;
+  background-position-y: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-color: transparent;
+}
+
+.btn-design:hover {
+  -webkit-transform: translate3d(-3px, 0, 0);
+          transform: translate3d(-3px, 0, 0);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  background-color: #ffc338;
+}
+
+.back-btn {
+  height: 60px;
+  width: 60px;
+  background-size: 38px;
+  background-position-x: 11px;
+  background-position-y: 11px;
+  background-image: url("https://i.ibb.co/vL4G3dC/right-Arrow-Png-White.png");
+}
+
+.back-btn:hover {
+  -webkit-transform: translate3d(3px, 0, 0);
+          transform: translate3d(3px, 0, 0);
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  background-color: #ff3b4577;
+  border: solid #ff3b4577 1px;
+}
+
+.LoansDetailsScreen-maindiv {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  background-image: url("../IMG/Unblured3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.LoansDetailsScreen-content {
+  margin: 15px;
+  padding: 10px;
+  min-height: 300px;
+  line-height: 50px;
+}
+
+.LoansDetailsScreen-content {
+  min-height: 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.LoansDetailsScreen-content .loan-amount {
+  padding: 25px;
+  margin: 45px;
+  width: 60%;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffc338;
+  border: solid white 1px;
+  background: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.LoansDetailsScreen-content .loan-amount::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.LoansDetailsScreen-content .loan-amount:-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.LoansDetailsScreen-content .loan-amount::-ms-input-placeholder {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.LoansDetailsScreen-content .loan-amount::placeholder {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.LoansDetailsScreen-content .loan-amount:hover::-webkit-input-placeholder {
+  font-size: 1.6rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+.LoansDetailsScreen-content .loan-amount:hover:-ms-input-placeholder {
+  font-size: 1.6rem;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+.LoansDetailsScreen-content .loan-amount:hover::-ms-input-placeholder {
+  font-size: 1.6rem;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+.LoansDetailsScreen-content .loan-amount:hover::placeholder {
+  font-size: 1.6rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.range-container {
+  width: 60%;
+}
+
+.range-container .slider-label-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.range-container .slider-label-container #slider-years {
+  color: #ffc338;
+}
+
+.range-container .slider-label-container .range-label {
+  margin: 5px;
+}
+
+.range-container #rangeDesign {
+  cursor: pointer;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 15px;
+}
+
+.range-container #rangeDesign:hover {
+  opacity: 1;
+}
+
+.range-container #rangeDesign::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #ffc338;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.range-container #rangeDesign::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.LDSS-left-background {
+  background-image: url("../IMG/Blured3.jpg");
+}
+
+.syntax-highlighter-container {
+  font-size: 1.2rem;
+  text-align: start;
+  height: 300px;
+  width: 80%;
+  overflow-x: scroll;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.last-submit-btn {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+  border: solid white 1px;
+  background-image: url("https://i.ibb.co/hfHH6DY/checkPNG.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position-x: 16px;
+  background-position-y: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-color: transparent;
+  margin: auto;
+}
+
+.last-submit-btn:hover {
+  border: solid #08ca49 1px;
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  background-color: #08ca49;
+}
+
+@media (max-height: 850px) {
+  .LoansDetailsScreen-maindiv {
+    padding-bottom: 550px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-height: 750px) {
+  .LoansDetailsScreen-maindiv {
+    padding-bottom: 750px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-height: 650px) {
+  .LoansDetailsScreen-maindiv {
+    padding-bottom: 850px;
+    padding-top: 50px;
+  }
+}
+/*# sourceMappingURL=LDSS.css.map */

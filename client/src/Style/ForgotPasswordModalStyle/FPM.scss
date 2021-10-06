@@ -1,0 +1,135 @@
+.ReactModal__Content,
+.ReactModal__Content--after-open,
+.modal-mainstyle {
+  border: none;
+  user-select: none;
+}
+
+.modal-mainstyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  height: 47%;
+  border-radius: 15px;
+}
+
+.forgot-pw-cmpnt-holder {
+  color: white;
+}
+
+@mixin btnDesign() {
+  margin: 15px;
+  color: rgba(255, 255, 255, 0.829);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  width: 40%;
+  margin: 12px;
+  border-radius: 5px;
+  background-color: #ffc338d0;
+  cursor: pointer;
+  font-family: "Exo", sans-serif;
+  &:hover {
+    transition-duration: 0.5s;
+    background-color: #ffc338;
+    color: white;
+  }
+}
+
+.forgot-password-modal-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Exo", sans-serif;
+
+  .modal-content-title {
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .your-email-input {
+    font-size: 1.3rem;
+    outline: none;
+    border-radius: 12px;
+    padding: 12px;
+    width: 60%;
+    margin: 10px;
+    &::placeholder {
+      font-size: 1.2rem;
+    }
+  }
+
+  .recover-pw-btn {
+    @include btnDesign();
+  }
+}
+
+.changepw-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Exo", sans-serif;
+
+  h1 {
+    margin-top: 23px;
+    margin-bottom: 5px;
+  }
+  .changepw-input-design {
+    padding: 10px;
+    margin: 12px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 12px;
+    padding: 10px;
+    width: 60%;
+
+    &::placeholder {
+      font-size: 1rem;
+    }
+  }
+
+  .changepw-submit-btn {
+    @include btnDesign();
+  }
+}
+
+.modal-nav {
+  margin: 5px;
+
+  .close-modal-btn {
+    margin: 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: rgb(167, 167, 167);
+    &:hover {
+      transition-duration: 0.3s;
+      color: #D7A738;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .modal-mainstyle {
+    height: 470px;
+    width: 75%;
+  }
+}
+@media (max-height: 1000px) {
+  .modal-mainstyle {
+    height: 470px;
+    width: 35%;
+  }
+}
+@media (max-height: 850px) {
+  .modal-mainstyle {
+    height: 470px;
+    width: 85%;
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://matan2288:matan2288@cluster0.at8ez.mongodb.net/BankingScreenAppDatabase?retryWrites=true&w=majority"
+}

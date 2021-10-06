@@ -1,0 +1,379 @@
+.BankAccountDetailsScreen-maindiv {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  background-image: url("../IMG/Unblured2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.BankAccountDetailsScreen-maindiv .right-page-container {
+  line-height: 45px;
+}
+
+.BankAccountDetailsScreen-content {
+  margin: 15px;
+}
+
+.het-pey-p {
+  color: rgba(252, 252, 252, 0.76);
+  font-family: exo;
+  font-size: 1.2rem;
+}
+
+#company-holdinyPCNT-selectionID {
+  padding: 5px;
+  font-size: 1.5rem;
+  margin: 12px;
+  border: solid white 1px;
+  background: none;
+  color: rgba(255, 255, 255, 0.699);
+  border-radius: 5px;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+#company-holdinyPCNT-selectionID:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+#company-holdinyPCNT-selectionID option {
+  color: black;
+}
+
+label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.BADS-form {
+  margin: 4px;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.BADS-form .BADS-bank-account-selection-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.BADS-form .BADS-bank-account-selection-container .bankAccountDetails-container {
+  background-color: #1c222b56;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 5px;
+  overflow: hidden;
+  width: 98%;
+}
+
+.BADS-form .BADS-bank-account-selection-container .bankAccountDetails-container #responsive-addAccount-Logo {
+  padding: 20px;
+  margin: 5px;
+  background-size: 60px;
+  min-width: 50px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url("https://i.ibb.co/yBkDKWT/bank-logo-white2.png");
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+.BADS-form .BADS-bank-account-selection-container select {
+  padding: 12.8px;
+  font-size: 1.38rem;
+  margin: 7px;
+  background: none;
+  color: rgba(255, 255, 255, 0.699);
+  margin-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid #8a8989 2px;
+}
+
+.BADS-form .BADS-bank-account-selection-container select:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+.BADS-form .BADS-bank-account-selection-container select option {
+  color: black;
+}
+
+.BADS-form .BADS-bank-account-selection-container input {
+  font-size: 1.25rem;
+  max-width: 175px;
+  margin: 7px;
+  padding: 16px;
+  margin-bottom: 5px;
+  text-align: start;
+  background: none;
+  border: solid white 1px;
+  border-radius: 5px;
+  color: white;
+}
+
+.BADS-form .BADS-bank-account-selection-container input::-webkit-input-placeholder {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.699);
+  margin-right: 15%;
+}
+
+.BADS-form .BADS-bank-account-selection-container input:-ms-input-placeholder {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.699);
+  margin-right: 15%;
+}
+
+.BADS-form .BADS-bank-account-selection-container input::-ms-input-placeholder {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.699);
+  margin-right: 15%;
+}
+
+.BADS-form .BADS-bank-account-selection-container input::placeholder {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.699);
+  margin-right: 15%;
+}
+
+.BADS-form .BADS-bank-account-selection-container input:hover::-webkit-input-placeholder {
+  font-size: 1.25rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+.BADS-form .BADS-bank-account-selection-container input:hover:-ms-input-placeholder {
+  font-size: 1.25rem;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+.BADS-form .BADS-bank-account-selection-container input:hover::-ms-input-placeholder {
+  font-size: 1.25rem;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+.BADS-form .BADS-bank-account-selection-container input:hover::placeholder {
+  font-size: 1.25rem;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+.BADS-form .BADS-bank-account-selection-container span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 10px;
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.BADS-form .BADS-bank-account-selection-container span:hover {
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: rgba(255, 0, 0, 0.486);
+}
+
+#please-click-to-add-bank-account {
+  color: #d3d3d333;
+}
+
+.add-account-container {
+  text-align: end;
+}
+
+.add-account-container span {
+  margin: 35px;
+  font-size: 1.2rem;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+}
+
+.add-account-container span:hover {
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: rgba(28, 190, 13, 0.438);
+}
+
+.BADS-left-background {
+  background-image: url("../IMG/Blured2.jpg");
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+@media (max-width: 1780px) {
+  .BADS-bank-account-selection-container .left-page-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .BADS-bank-account-selection-container .bankAccountDetails-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .BADS-bank-account-selection-container input {
+    max-width: 150px;
+  }
+  .BADS-bank-account-selection-container select {
+    max-width: 350px;
+    margin: 15px;
+  }
+  .holding-and-label-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .holding-and-label-container label {
+    font-size: 1.2rem;
+  }
+  .holding-and-label-container #company-holdinyPCNT-selectionID {
+    width: 35%;
+    border: solid white 1px;
+  }
+  .add-account-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 740px) {
+  .BankAccountDetailsScreen-maindiv {
+    height: auto;
+  }
+  .BADS-bank-account-selection-container select {
+    width: 56%;
+    margin: 15px;
+    margin-right: none;
+  }
+  .BankAccountDetailsScreen-maindiv {
+    padding-bottom: 1250px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bankAccountDetails-container {
+    width: 80%;
+  }
+  .BADS-bank-account-selection-container {
+    width: 90%;
+  }
+  .BADS-bank-account-selection-container select {
+    width: auto;
+    margin: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .BADS-bank-account-selection-container input {
+    width: 90%;
+  }
+  .BADS-bank-account-selection-container select {
+    width: 85%;
+    margin: 15px;
+  }
+}
+
+@media (max-height: 850px) {
+  .BankAccountDetailsScreen-maindiv {
+    padding-bottom: 1250px;
+  }
+}
+
+@media (max-height: 750px) {
+  .BankAccountDetailsScreen-maindiv {
+    padding-bottom: 1250px;
+  }
+}
+
+@media (max-height: 650px) {
+  .BankAccountDetailsScreen-maindiv {
+    padding-bottom: 1350px;
+  }
+}
+/*# sourceMappingURL=BADS.css.map */

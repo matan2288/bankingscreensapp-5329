@@ -1,0 +1,174 @@
+@import "../UniversalContainerDesign/_UniversalContainerDesign.scss";
+
+
+.LoansDetailsScreen-maindiv {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  background-image: url("../IMG/Unblured3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoansDetailsScreen-content {
+  margin: 15px;
+  padding: 10px;
+  min-height: 300px;
+  line-height: 50px;
+}
+
+.LoansDetailsScreen-content {
+  min-height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .loan-amount {
+    padding: 25px;
+    margin: 45px;
+    width: 60%;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffc338;
+    border: solid white 1px;
+    background: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    &::placeholder {
+      font-size: 1.5rem;
+      color: rgba(255, 255, 255, 0.699);
+    }
+
+    &:hover::placeholder {
+      font-size: 1.6rem;
+      transition-duration: 0.3s;
+      color: white;
+    }
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.range-container {
+  width: 60%;
+  .slider-label-container {
+    display: flex;
+    justify-content: center;
+
+    #slider-years {
+      color: #ffc338;
+    }
+    .range-label {
+      margin: 5px;
+    }
+  }
+
+  #rangeDesign {
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 15px;
+    &:hover {
+      opacity: 1;
+    }
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      background: #ffc338;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+
+    &::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      background: #04aa6d;
+      cursor: pointer;
+    }
+  }
+}
+
+.LDSS-left-background {
+  background-image: url("../IMG/Blured3.jpg");
+}
+
+.syntax-highlighter-container {
+  font-size: 1.2rem;
+  text-align: start;
+  height: 300px;
+  width: 80%;
+  overflow-x: scroll;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.last-submit-btn {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+  border: solid white 1px;
+  background-image: url("https://i.ibb.co/hfHH6DY/checkPNG.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position-x: 16px;
+  background-position-y: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: brightness(70%);
+  transition: all 0.2s linear;
+  background-color: transparent;
+
+  margin: auto;
+  &:hover {
+    border: solid #08ca49 1px;
+    filter: brightness(1);
+    background-color: #08ca49;
+  }
+}
+
+
+@media (max-height: 850px) {
+  .LoansDetailsScreen-maindiv {
+    padding-bottom: 550px;
+
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+@media (max-height: 750px) {
+  .LoansDetailsScreen-maindiv {
+    
+    padding-bottom: 750px;
+  }
+  .main-form-container-design {
+    margin-bottom: -100px;
+  }
+}
+@media (max-height: 650px) {
+  .LoansDetailsScreen-maindiv {
+    padding-bottom: 850px;
+    padding-top: 50px;
+  }
+}
+
+ 

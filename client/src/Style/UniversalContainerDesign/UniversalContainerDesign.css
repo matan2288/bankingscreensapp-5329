@@ -1,0 +1,168 @@
+.formCover-and-inputs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-page-container {
+  border-top-left-radius: 3px;
+  border-end-start-radius: 3px;
+  width: 50%;
+  background-image: url(".././IMG/bluredBackground.jpg");
+  background-size: cover;
+  min-height: 770px;
+}
+
+.left-page-container .btb-logo {
+  background-image: url("https://i.ibb.co/pvt2kQB/BTB-Logo-White.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  margin-top: 190px;
+  height: 170px;
+  width: 100%;
+}
+
+.left-page-container .left-page-p-container {
+  font-size: 30px;
+  color: #fdfdfd;
+}
+
+.left-page-container .left-page-p-container p {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.right-page-container {
+  background-color: #252c38;
+  width: 55%;
+  min-height: 770px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 750px;
+}
+
+.right-page-container .input-header-container {
+  min-height: 160px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-page-container .input-header-container img {
+  height: 80px;
+  width: 80px;
+  margin-top: 34px;
+  margin-bottom: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+.right-page-container .input-header-container p {
+  color: white;
+  font-size: 1.9rem;
+  margin-top: 10px;
+  border-bottom: solid #ffc338 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.right-page-container .input-header-container .responsive-btb-logo {
+  background-image: url("https://i.ibb.co/pvt2kQB/BTB-Logo-White.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  visibility: hidden;
+}
+
+.right-page-container .inputs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+}
+
+.right-page-container .inputs-container .inputs-design-class {
+  margin: 16px;
+  padding: 18px;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 1.35rem;
+  text-align: end;
+  border: solid white 1px;
+  background: none;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Exo', sans-serif;
+}
+
+.right-page-container .inputs-container .inputs-design-class::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class::placeholder {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 1.2rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class:hover::-webkit-input-placeholder {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class:hover:-ms-input-placeholder {
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class:hover::-ms-input-placeholder {
+  transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.right-page-container .inputs-container .inputs-design-class:hover::placeholder {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.right-page-container .inputs-container .inputs-row2 {
+  margin-left: -30px;
+}
+/*# sourceMappingURL=UniversalContainerDesign.css.map */
